@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./echo"
+	"./http"
 )
 
 func main() {
-	echo.Echo()
+	http.Request("https://httpbin.org/headers")
 }

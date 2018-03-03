@@ -1,3 +1,5 @@
+//指定したURLへ送ったヘッダーとレスポンスを表示するだけ！
+
 package http
 
 import (

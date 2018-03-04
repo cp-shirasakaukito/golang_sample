@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./http"
+	"github.com/tutorial/holiday"
 )
 
 func main() {
-	http.Request("https://httpbin.org/headers")
+	holiday.GetHoliday()
 }

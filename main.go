@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/tutorial/holiday"
+	"github.com/tutorial/mysql"
 )
 
 func main() {
-	holiday.GetHoliday()
+	mysql.Exec()
 }
